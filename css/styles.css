@@ -119,7 +119,7 @@ body {
 .patent {
   position: relative;
   overflow: hidden;
-  padding-top: 25px;
+  padding-top: 25px;  
 }
 
 .slider__wrapper {
@@ -328,14 +328,19 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .invest-text {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-decoration: none;  
   font-size: 18px;
   font-weight: normal;
   color:#aa33ff;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.project {
+  display: grid;
+  justify-content: center;
 }
 
  /* ****************************** Разные offset-ы  START**************************** */
@@ -525,9 +530,9 @@ a {
   display: flex;
 }
 
-.h-100 {
+/* .h-100 {
   height: 100%;
-}
+} */
 
 .align-items-center {
   align-items: center;
@@ -548,7 +553,7 @@ a {
 
 .header-title-info {
   color: rgba(255, 255, 255, 0.5);
-  margin-top: 200px;
+  margin-top: 170px;
   font-size: 26px;
   max-width: 540px;
   line-height: 30px;
@@ -558,9 +563,9 @@ a {
   text-transform: uppercase;
 }
 
-.my-0 {
-  margin-top: 100px;
-  margin-bottom: 50px;
+.space-ceramic-offset {
+  margin-top: 221px;
+  /* margin-bottom: 50px; */
 }
 
 nav {
@@ -666,6 +671,8 @@ li > a:only-child:after { content: ''; }*/
 }
 
 .our-dev {
+  display: grid; 
+  grid-template-rows: min-content 1fr min-content;
   background-color: #DDD7D7;
   background-size: 50px 50px;
   background-image: 
