@@ -295,23 +295,44 @@
   cursor: pointer;
 }
 
+.wikipedia,
+.youtube,
 .footer-info-main,
 .decorative-footer-info,
 .footer-info-slider,
 .footer-info {
    display: flex;
    justify-content: center;
+   align-self: center;
+   margin: 0;
    font-weight: 400;  
    background-color: #314668;    
    color:white;    
-   height: 3rem;
-   font-size: 18px;
+   height: 2.5rem;
+   font-size: 16px;
+}
+
+.social-networks {
+  display: flex;
+   justify-content: center;
+   align-self: center;
+}
+
+.wikipedia {
+  padding-left: 5px;
+}
+
+.youtube {
+  padding-left: 30px;
 }
 
 .decorative-footer-info,
-.footer-info-slider,
 .footer-info {
   margin-top: 50px;  
+}
+
+.footer-info-slider {
+ align-self: center; 
 }
 
 .footer-info-main {  
@@ -319,7 +340,12 @@
 } 
 
 .div-offset {
-  padding-top: 10px;
+  padding-top: 15px;
+}
+
+.social-youtube:hover,
+.social-wikipedia:hover {
+  opacity: 0.7;
 }
 
 .invest-text {
@@ -353,7 +379,7 @@
 }
 
 .footer-info-ceramic {
-  margin-top: 163px;
+  margin-top: 172px;
 }
 
 .ceramic-tile-offset {
@@ -361,7 +387,7 @@
 }
 
 .footer-info-offset {
-  margin-top: 100px;
+  margin-top: 113px;
 }
 
 .decorative-offset {
@@ -369,7 +395,7 @@
 }
 
 .slider-offset {
-  margin-top: 138px; 
+  margin-top: 146px; 
 }
 
 .our-footer-offset {
@@ -377,7 +403,7 @@
 }
 
 .patent-offset {
- margin-top: 58px; 
+ margin-top: 64px; 
 }
 
 /* ****************************** Разные offset-ы  END**************************** */
